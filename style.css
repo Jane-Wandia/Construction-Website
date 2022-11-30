@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 :root {
     --yellow: #acf523;
@@ -82,7 +82,7 @@ html {
     background: var(--white);
 }
     .logo{
-        @include titleText(2.5rem);
+        @include titleText(10px);
 
     }
 
@@ -92,7 +92,7 @@ html {
    
 
     .navbar a {
-        @include titleText(2rem);
+        @include titleText(5rem);
         margin: 0 1rem;
     }
     &:hover {
@@ -137,7 +137,7 @@ html {
  @media (max-width:991px) {
 
      html {
-         font-size: 55%;
+         font-size: 16px;
      }
 
 @media (max-width:450px) {
