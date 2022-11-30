@@ -34,6 +34,21 @@
     color: var(--black);
     text-transform: capitalize;
 }
+.header .logo span {
+    color: var(--yellow);
+}
+.logo-container {
+    text-align: center;
+}
+
+.logo-container img {
+    height: 10rem;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 /*@mixin grid($val) {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
