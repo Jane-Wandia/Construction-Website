@@ -28,6 +28,14 @@
     padding-left: 1rem;
     border-left: 1rem solid var(--yellow);
 }
+.heading {
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    color: var(--black);
+    text-transform: capitalize;
+    padding-left: 1rem;
+    border-left: 1rem solid var(--yellow);
+}
 /*@mixin grid($val) {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
