@@ -55,6 +55,20 @@
     text-transform: capitalize;
     margin: 0 1rem;
 }
+.header .navbar a:hover {
+    color: var(--yellow);
+}
+.header .icons div {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    background: var(--light-bg);
+    color: var(--black);
+    cursor: pointer;
+    text-align: center;
+    margin-left: .3rem;
+}
 /*@mixin grid($val) {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
