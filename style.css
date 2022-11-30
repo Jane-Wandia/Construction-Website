@@ -97,6 +97,30 @@
     -webkit-animation: fadeIn .2s linear;
     animation: fadeIn .2s linear;
 }
+.header .search-form.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.header .search-form input {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    background: var(--light-bg);
+    font-size: 1.6rem;
+    color: var(--light-color);
+}
+
+.header .search-form label {
+    font-size: 2.5rem;
+    color: var(--black);
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+.header .search-form label:hover {
+    color: var(--yellow);
+}
 /*@mixin grid($val) {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
